@@ -1,4 +1,4 @@
-var Room = function (number,name,category,availability) {
+var RoomClass = function (number,name,category,availability) {
 	this.number = number;
 	this.name = name;
 	this.category = category;
@@ -53,4 +53,4 @@ function initRoomList(){
 	return roomList;
 }
 
-module.exports = RoomClass;
+module.exports = {RoomClass: RoomClass, initRoomList: initRoomList};
