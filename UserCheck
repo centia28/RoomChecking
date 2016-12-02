@@ -1,0 +1,15 @@
+'use strict';
+
+        function userCheck(){
+            var validUser = {
+                name: "lekan",
+                password: "lekan"
+            };
+            var username = document.getElementById('').value;
+            var password = document.getElementById('').value
+
+            if (username ==  && password == "laken")
+           
+
+
+        }
